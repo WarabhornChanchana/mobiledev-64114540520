@@ -1,0 +1,25 @@
+name: product_management_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  pocketbase: ^0.18.1
+  image_picker: ^0.8.4+11  # เก็บเวอร์ชันที่ต้องการไว้เพียงครั้งเดียว
+  http: ^1.2.2
+  dio: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1  # ใช้เวอร์ชันล่าสุดที่เหมาะสมกับ SDK ที่คุณใช้อยู่
+
+flutter:
+  uses-material-design: true
